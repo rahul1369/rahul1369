@@ -121,18 +121,24 @@ span{
 	left:0;
 	background:linear-gradient(to right,#287DB0,#63BDFB,#287DB0);
 }
+
+.main-nav a{
+	color: black;
+	text-decoration: none;
+}
+
 .main-nav li{
 	display: inline;
 	font-weight: 700;
 	font-family: "Montserrat",sans-serif;
-	padding:0.3% 3%;
-	border-radius: 10px;
+	padding:0 3%;
 }
-.active-nav{
+a.active{
 	/*background:linear-gradient(to right,#3298D3,#63BDFB,#3298D3);
 	border:1px solid #3191C9;*/
-	color: white;
+	color:white;
 }
+
 
 /*ABOUT STYLING*/
 .about{
@@ -206,6 +212,7 @@ span{
 	margin-bottom: 30px;
 	border-radius: 10px;
 	width: 95%;
+	margin-top: 60px;
 }
 .myworks h4{
 	width:100%;
@@ -332,7 +339,7 @@ span{
 }
 .test-stuff h6{
 	font-size: 1em;
-	font-weight:thin;
+	font-weight:lighter;
 	text-align: center;
 	width: 100%;
 }
@@ -367,7 +374,7 @@ span{
 	font-weight: 800;
 }
 .social-div{
-	width: 65%;
+	width: 75%;
 	margin:auto;
 	padding:90px 0 ;
 }
