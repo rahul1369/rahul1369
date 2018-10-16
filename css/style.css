@@ -160,7 +160,7 @@ a.active{
 .profile-card{
 	width:80%;
 	margin:auto;
-	box-shadow: 0 0 25px lightgrey;
+	box-shadow:0 6px 15px -4px lightgrey;
 	border-radius: 15px;
 	margin-top: 40px;
 }
